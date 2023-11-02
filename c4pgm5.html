@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Change Text Color on Button Click</title>
+</head>
+<body>
+<center>
+    <p id="textToChange">With great power comes great responsibility.</p>
+    <button onclick="changeTextColor()">CLICK</button>
+
+    <script>
+        function changeTextColor() {
+            // Get the element with the ID "textToChange"
+            var textElement = document.getElementById("textToChange");
+
+            // Change the text color to blue
+            textElement.style.color = "blue";
+        }
+    </script>
+</center>
+</body>
+</html>
